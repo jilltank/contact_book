@@ -1,0 +1,8 @@
+<h1>Your Search Results</h1>
+<div class="well">
+<ul>
+	<% @results.each do |r| %>
+		<li><%= "#{r.first_name} #{r.last_name}" %></li>
+	<% end %>
+</ul>
+</div>
